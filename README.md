@@ -31,11 +31,9 @@
   # Iniciar App
   * serve -s build
 
-######
 
  ### Pasos para Configurar Backend
 
- ## Pasos para Configurar
    * create base de datos con script.sql
 
   ``` sh      
@@ -48,11 +46,8 @@
     * yarn prisma generate
   ```
 
-  # Iniciar Servicio
+  ### Iniciar Servicio
   * yarn start
 
   ##### server is runing on http://localhost:4000
  
-
-
-
