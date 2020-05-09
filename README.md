@@ -18,7 +18,7 @@
   ## Pasos para Configurar Frontend
   ``` sh 
   
-    * cd ticket
+    * cd test-dev-node/ticket
     
     * yarn install    
     
@@ -37,7 +37,7 @@
    * create base de datos con script.sql
 
   ``` sh      
-    * cd batestReactNodeBackend 
+    * cd test-dev-node/testReactNodeBackend 
     * cp .env.example .env
     * cp prisma/.env.example .env
     * configurar prisma/.env con credenciales mysql 
