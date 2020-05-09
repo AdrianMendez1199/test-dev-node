@@ -31,8 +31,28 @@
   # Iniciar App
   * serve -s build
 
+######
 
-## Clonar Proyecto Backend
-### Pasos para Configurar Frontend
+ ### Pasos para Configurar Backend
+
+ ## Pasos para Configurar
+   * create base de datos con script.sql
+
+  ``` sh      
+    * cd batestReactNodeBackend 
+    * cp .env.example .env
+    * cp prisma/.env.example .env
+    * configurar prisma/.env con credenciales mysql 
+    * yarn install    
+    * yarn prisma introspect
+    * yarn prisma generate
+  ```
+
+  # Iniciar Servicio
+  * yarn start
+
+  ##### server is runing on http://localhost:4000
+ 
+
 
 
