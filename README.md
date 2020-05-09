@@ -37,13 +37,19 @@
    * create base de datos con script.sql
 
   ``` sh      
-    * cd test-dev-node/testReactNodeBackend 
-    * cp src/.env.example .env
-    * cp prisma/.env.example .env
-    * configurar prisma/.env con credenciales mysql 
-    * yarn install    
-    * yarn prisma introspect
-    * yarn prisma generate
+      cd test-dev-node/testReactNodeBackend 
+      
+      cp src/.env.example .env
+      
+      cp prisma/.env.example prisma/.env
+      
+      configurar prisma/.env con credenciales mysql
+      
+      yarn install    
+      
+      yarn prisma introspect
+      
+      yarn prisma generate
   ```
 
   ### Iniciar Servicio
