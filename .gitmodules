@@ -1,8 +1,6 @@
-[submodule "Backend"]
-	path = Backend
+[submodule "testReactNodeBackend"]
+	path = testReactNodeBackend
 	url = git@github.com:AdrianMendez1199/testReactNodeBackend.git
-	branch = master
-[submodule "Frontend"]
-	path = Frontend
+[submodule "ticket"]
+	path = ticket
 	url = git@github.com:AdrianMendez1199/ticket.git
-	branch = master
