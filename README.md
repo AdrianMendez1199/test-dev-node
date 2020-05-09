@@ -38,7 +38,7 @@
 
   ``` sh      
     * cd test-dev-node/testReactNodeBackend 
-    * cp .env.example .env
+    * cp src/.env.example .env
     * cp prisma/.env.example .env
     * configurar prisma/.env con credenciales mysql 
     * yarn install    
